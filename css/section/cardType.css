@@ -1,0 +1,58 @@
+.card__wrap {
+}
+
+.card__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 32%;
+    background: #f5f5f5;
+}
+
+.card__header {}
+
+.card__body {
+    padding: 24px;
+}
+.card__body .title{
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.card__body .desc{
+    font-size: 18px;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 20px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; 
+    -webkit-box-orient: vertical;
+}
+.card__body .btn{
+    line-height: 1;
+    color: #222;
+}
+.card__body .btn svg{
+    transition: all 0.3s;
+}
+.btn:hover {
+    border-bottom: 1px solid #000;
+}
+.btn:hover svg{
+    padding-left: 160px;
+    
+}
+
+.card__body .btn span{
+    position: relative;
+}
+.card__body .btn span svg{
+    position: absolute;
+    top: 4px;
+    left: 10px;
+}

@@ -1,0 +1,40 @@
+.banner__wrap {
+}
+
+.banner__inner {
+    padding: 120px 0;
+    background:url(/img/banner_bg01.jpg) no-repeat center / cover;
+    text-align: center;
+}
+
+.banner__inner .title{
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.banner__inner .desc{
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 70px;
+    color: #fff;
+}
+.banner__inner .desc a{
+    display: block;
+    color: #fff;
+}
+.banner__inner .small{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 120px;
+    cursor: pointer;
+}
+.small:hover {
+    text-decoration: underline;
+}
+
+
