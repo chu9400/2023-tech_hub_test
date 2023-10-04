@@ -40,3 +40,23 @@
     line-height: 1;
     color: #666;
 }
+
+@media(max-width:1220px) {
+    .footer__inner {
+        width: 100%;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+}
+@media(max-width:768px) {
+    .footer__menu {
+        flex-wrap: wrap;
+    }
+    .footer__menu .footer__box{
+        width: 50%;
+    }
+    .footer__box:last-child {
+        width: 100%;
+    }
+
+}

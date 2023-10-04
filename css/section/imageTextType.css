@@ -5,6 +5,7 @@
 .imageText__inner {
     display: flex;
     justify-content: space-between;
+    box-sizing: border-box;
 }
 
 
@@ -103,3 +104,23 @@
 .imageText__img.img2 a{
     background-color: #2B387C;
 }
+
+
+@media(max-width:1220px) {
+    .imageText__inner {
+        width: 100%;
+    }
+}
+@media(max-width:768px) {
+    .imageText__inner {
+        display: block;
+    }
+    .imageText__text {
+        width: 100%;
+    }
+    .imageText__img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+

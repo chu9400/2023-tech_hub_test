@@ -91,14 +91,28 @@
 
 }
 
-.text__box .btn{
+.text__box .btn__txt{
     display: inline-block;
     line-height: 1;
     color: #666;
 }
 
-.text__box:hover .btn{
+.text__box:hover .btn__txt {
     text-decoration: underline;
     text-underline-position: under;
+
+}
+
+@media(max-width:1220px) {
+    .text__inner {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+}
+@media(max-width:768px) {
+    .text__box  {
+        width: 100%;
+    }
 
 }

@@ -356,7 +356,7 @@
     .btn__menu {
         display: block;
         position: absolute;
-        top: 20px;
+        top: 27px;
         right: 20px;
         border: 0;
         background-color: transparent;
@@ -378,7 +378,7 @@
         height: 100vh;
         display: block;
         position: absolute;
-        top: 70px;
+        top: 80px;
         left: 0;
         z-index: 1;
         background-color: rgba(0,0,0,.95);
@@ -431,9 +431,18 @@
     .list__sub li a span:hover::after{
         opacity: 0;
     }
+}
 
-    
-    
+@media (max-width:768px) {
+    .logo a{
+        font-size: 24px;
+        text-align: center;
+        padding: 12px 0;
+        
+    }
+    .logo a em{
+        font-size: 16px;
+    }
 }
 
 /* 모바일 끝 */
