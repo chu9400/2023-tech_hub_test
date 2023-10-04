@@ -7,11 +7,9 @@
 미리보기 : 예정
 
 ## 사용 스택
-- html
-- css
-- Jquery를 통해 html 및 css를 동적으로 제작합니다/
-- github(https://github.com/) 을 사용하여 파일을 관리합니다.
 - HTML, CSS 기반으로 웹사이트의 기본 레이아웃 설계하고, 웹 표준 및 웹 접근성을 준수하여 작업합니다. [ARIA(Accessible Rich Internet Applications)](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+- Jquery를 사용하여 html 및 css를 동적으로 조작합니다.
+- github(https://github.com/) 을 사용하여 파일을 관리합니다.
 
 ## 프로젝트 실행
 - 파일을 압축 풀고 내부의 index.html을 더블 클릭하여 사이트를 확인 할 수 있습니다.
