@@ -202,7 +202,6 @@
 }
 
 .choice__sign__wrap {
-    
     margin-top: 25px;
 }
 
@@ -216,18 +215,7 @@
     cursor: pointer;
 }
 
-.check__icon{
-    position: absolute;
-    display: inline-block;
-    top: 0;
-    left: 0;
-    width: 20px;
-    height: 20px;
-    background:url(../../img/ico_comm.png) no-repeat center / cover;
-    background-size: 300px auto;
-    background-position: 0 0;
-    
-}
+
 
 .check__icon__on {
     background-position: -25px 0;
